@@ -13,6 +13,7 @@ export default class Game extends Component {
             <table className="table table-bordered">
                 <tbody>
                 {renderCells(this.rows)}
+
                 </tbody>
             </table>
         )
