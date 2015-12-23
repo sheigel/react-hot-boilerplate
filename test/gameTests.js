@@ -7,6 +7,6 @@ describe('new game', ()=>{
         let game = newGame();
         game.test()
 
-        expect(game.cells).to.be.null;
+        expect(game.cells).to.be.undefined;
     })
 })
